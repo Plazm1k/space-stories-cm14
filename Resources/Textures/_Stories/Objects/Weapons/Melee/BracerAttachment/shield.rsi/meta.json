@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from cmss13 at https://github.com/cmss13-devs/cmss13/blob/master/icons/mob/humans/onmob/hunter/items_lefthand.dmi, https://github.com/cmss13-devs/cmss13/blob/master/icons/mob/humans/onmob/hunter/items_righthand.dmi, https://github.com/cmss13-devs/cmss13/blob/7b4244612942e910b40148d4b54d38748f114a84/icons/mob/humans/onmob/inhands/weapons/melee/swords_righthand.dmi",
+  "copyright": "Taken from cmss13 at https://github.com/cmss13-devs/cmss13/blob/master/icons/mob/humans/onmob/hunter/items_lefthand.dmi, https://github.com/cmss13-devs/cmss13/blob/master/icons/mob/humans/onmob/hunter/items_righthand.dmi, https://github.com/cmss13-devs/cmss13/blob/master/icons/obj/items/hunter/pred_gear.dmi",
   "size": {
     "x": 32,
     "y": 32
