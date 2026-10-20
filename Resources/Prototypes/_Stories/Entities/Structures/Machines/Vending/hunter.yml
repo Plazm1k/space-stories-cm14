@@ -179,7 +179,7 @@
       choices: { STBracer: 1 }
       entries:
       - id: STVendorBundleHunterWristblades
-      # - id: STBracerAttachmentShield
+      - id: STBracerAttachmentShield
     - name: Secondary Equipment
       choices: { STAdd: 2 }
       entries:
@@ -283,7 +283,7 @@
       choices: { STBracer: 1 }
       entries:
       - id: STVendorBundleHunterWristblades
-      # - id: STBracerAttachmentShield
+      - id: STBracerAttachmentShield
 
 - type: entity
   parent: STHunterVendorEquipYoung
@@ -370,7 +370,7 @@
       choices: { STBracer: 1 }
       entries:
       - id: STVendorBundleHunterWristblades
-      # - id: STBracerAttachmentShield
+      - id: STBracerAttachmentShield
     - name: Secondary Equipment
       choices: { STAdd: 2 }
       entries:
