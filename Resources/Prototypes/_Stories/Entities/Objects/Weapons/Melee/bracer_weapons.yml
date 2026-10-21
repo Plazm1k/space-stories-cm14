@@ -93,17 +93,18 @@
     size: Huge
   - type: Blocking
     passiveBlockModifier:
-        coefficients:
-          Blunt: 0.3
-          Slash: 0.3
-          Piercing: 0.5
-          Heat: 0.9
+      coefficients:
+        Blunt: 0.3
+        Slash: 0.3
+        Piercing: 0.5
+        Heat: 0.9
     activeBlockModifier:
-        coefficients:
+      coefficients:
           Blunt: 0.2
           Slash: 0.2
           Piercing: 0.3
           Heat: 0.9
     passiveBlockFraction: 0.20
+    activeBlockFraction: 0.30
   - type: Damageable
     damageContainer: Shield
