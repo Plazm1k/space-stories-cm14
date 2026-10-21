@@ -176,7 +176,7 @@
       - id: STVendorBundleHunterScimitarsAlt
       - id: STVendorBundleHunterChainGauntlets
     - name: Bracer Attachments
-      choices: { STBracer: 1 }
+      choices: { STBracer: 2 }
       entries:
       - id: STVendorBundleHunterWristblades
       - id: STBracerAttachmentShield
@@ -280,7 +280,7 @@
       - id: STVendorBundleHunterScimitarsAlt
       - id: STVendorBundleHunterChainGauntlets
     - name: Bracer Attachments
-      choices: { STBracer: 1 }
+      choices: { STBracer: 2 }
       entries:
       - id: STVendorBundleHunterWristblades
       - id: STBracerAttachmentShield
@@ -367,7 +367,7 @@
       - id: STVendorBundleHunterScimitarsAlt
       - id: STVendorBundleHunterChainGauntlets
     - name: Bracer Attachments
-      choices: { STBracer: 1 }
+      choices: { STBracer: 2 }
       entries:
       - id: STVendorBundleHunterWristblades
       - id: STBracerAttachmentShield

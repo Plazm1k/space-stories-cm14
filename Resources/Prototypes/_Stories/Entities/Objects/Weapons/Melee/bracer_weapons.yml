@@ -94,18 +94,16 @@
   - type: Blocking
     passiveBlockModifier:
         coefficients:
-          Blunt: 0.8
-          Slash: 0.6
-          Piercing: 0.6
+          Blunt: 0.3
+          Slash: 0.3
+          Piercing: 0.5
           Heat: 0.9
     activeBlockModifier:
         coefficients:
-          Blunt: 0.8
-          Slash: 0.7
-          Piercing: 0.8
-          Heat: 0.8
-    flatReductions:
-          Blunt: 1
-          Slash: 1
-          Piercing: 1
-          Heat: 1
+          Blunt: 0.2
+          Slash: 0.2
+          Piercing: 0.3
+          Heat: 0.9
+    passiveBlockFraction: 0.20
+  - type: Damageable
+    damageContainer: Shield
