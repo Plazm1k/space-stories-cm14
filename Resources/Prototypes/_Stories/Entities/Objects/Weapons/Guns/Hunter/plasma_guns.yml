@@ -7,8 +7,11 @@
   - type: Sprite
     sprite: _Stories/Objects/Weapons/Guns/Hunter/plasma_pistol.rsi
     state: plasma-pistol
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
   - type: Item
-    size: Medium
+    size: Small
   - type: Gun
     selectedMode: SemiAuto
     availableModes:
@@ -22,10 +25,12 @@
       collection: STPulseShotCollection
   - type: BasicEntityAmmoProvider
     proto: STPPistolBolt
-    firecost: 25
+    capacity: 40
+    count: 40
   - type: Battery
     maxcharge: 1000
     startingcharge: 1000
+    firecost: 25
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 2
