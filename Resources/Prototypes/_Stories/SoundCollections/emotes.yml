@@ -9,8 +9,6 @@
     - /Audio/_Stories/Voice/Hunter/pred_roar6.ogg
     - /Audio/_Stories/Voice/Hunter/pred_roar7.ogg
     - /Audio/_Stories/Voice/Hunter/pred_roar8.ogg
-    - /Audio/_Stories/Voice/Hunter/pred_roar9.ogg
-    - /Audio/_Stories/Voice/Hunter/pred_roar10.ogg
 
 - type: soundCollection
   id: STHunterLaugh
