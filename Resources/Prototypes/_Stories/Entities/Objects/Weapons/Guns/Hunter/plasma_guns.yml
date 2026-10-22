@@ -1,0 +1,31 @@
+- type: entity
+  parent: STHunterBaseItem
+  id: STPlasmaPistol
+  name: plasma pistol
+  description: A plasma pistol capable of rapid fire. It has an integrated battery. Can be used to set fires, either to braziers or on people.
+  components:
+  - type: Sprite
+    sprite: _Stories/Objects/Weapons/Guns/Hunter/plasma_pistol.rsi
+    state: plasma-pistol
+  - type: Item
+    size: Medium
+  - type: Gun
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    fireRate: 1.8
+  - type: Wieldable
+    recoilUnwielded: 2
+    scatterWielded: 8
+    scatterUnwielded: 6
+    soundGunshot:
+      collection: STPulseShotCollection
+  - type: BasicEntityAmmoProvider
+    proto: STPPistolBolt
+    firecost: 25
+  - type: Battery
+    maxcharge: 1000
+    startingcharge: 1000
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 2
