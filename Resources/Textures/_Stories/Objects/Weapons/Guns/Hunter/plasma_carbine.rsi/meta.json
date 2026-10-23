@@ -8,23 +8,23 @@
   },
   "states": [
     {
-      "name": "plasmacarbine-equipped-BACKPACK",
+      "name": "equipped-BACKPACK",
       "directions": 4
     },
     {
-      "name": "plasmacarbine-inhand-left",
+      "name": "inhand-left",
       "directions": 4
     },
     {
-      "name": "plasmacarbine_w-inhand-left",
+      "name": "wielded-inhand-left",
       "directions": 4
     },
     {
-      "name": "plasmacarbine-inhand-right",
+      "name": "inhand-right",
       "directions": 4
     },
     {
-      "name": "plasmacarbine_w-inhand-right",
+      "name": "wielded-inhand-right",
       "directions": 4
     },
     {
