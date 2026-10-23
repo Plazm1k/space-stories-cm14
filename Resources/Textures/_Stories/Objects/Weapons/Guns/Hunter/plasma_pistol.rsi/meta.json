@@ -8,9 +8,9 @@
   },
   "states": [
     {
-        "name": "plasma-pistol",
-        "delays": [
-          [
+      "name": "plasma-pistol",
+      "delays": [
+        [
           0.1,
           0.1,
           0.1,

@@ -227,3 +227,19 @@
     damage:
       types:
         Heat: 75
+
+- type: entity
+  parent: STPistolBolt
+  id: STPistolBoltIncendiary
+  name: pistol Incendiary bolt
+  components:
+  - type: Sprite
+    sprite: _Stories/Objects/Weapons/Ammunition/Projectiles/pulse_projectiles.rsi
+    layers:
+    - state: bullet
+      map: ["enum.AmmoVisualLayers.Base"]
+    - type: Projectile
+      damage:
+        types:
+        Heat: 100
+    - type: IgniteOnProjectileHit
