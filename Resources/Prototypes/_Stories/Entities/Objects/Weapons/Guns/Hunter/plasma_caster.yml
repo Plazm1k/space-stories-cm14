@@ -215,7 +215,7 @@
 
 - type: entity
   parent: STPlasmaBoltBaseProjectile
-  id: STPPistolBolt
+  id: STPistolBolt
   name: pistol bolt
   components:
   - type: Sprite
