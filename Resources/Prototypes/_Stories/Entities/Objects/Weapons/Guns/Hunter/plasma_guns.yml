@@ -38,7 +38,7 @@
   - type: Wieldable
   - type: ProjectileBatteryAmmoProvider
     proto: STPistolBolt
-    firecost: 1
+    fireCost: 1
   - type: Battery
     maxCharge: 4000
     startingCharge: 4000
