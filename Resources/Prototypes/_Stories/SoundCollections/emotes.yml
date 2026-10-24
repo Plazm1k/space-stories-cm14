@@ -7,8 +7,6 @@
     - /Audio/_Stories/Voice/Hunter/pred_roar4.ogg
     - /Audio/_Stories/Voice/Hunter/pred_roar5.ogg
     - /Audio/_Stories/Voice/Hunter/pred_roar6.ogg
-    - /Audio/_Stories/Voice/Hunter/pred_roar7.ogg
-    - /Audio/_Stories/Voice/Hunter/pred_roar8.ogg
 
 - type: soundCollection
   id: STHunterLaugh
@@ -28,8 +26,6 @@
     - /Audio/_Stories/Voice/Hunter/pred_click3.ogg
     - /Audio/_Stories/Voice/Hunter/pred_click4.ogg
     - /Audio/_Stories/Voice/Hunter/pred_click5.ogg
-    - /Audio/_Stories/Voice/Hunter/pred_click6.ogg
-    - /Audio/_Stories/Voice/Hunter/pred_click7.ogg
 
 - type: soundCollection
   id: STHunterElderOverseer
