@@ -101,11 +101,7 @@
         Slash: 35
     attackRate: 1
     soundHit:
-<<<<<<< Updated upstream
-      collection: STSwordHits
-=======
       collection: STHunterSwordHit
->>>>>>> Stashed changes
 
 - type: entity
   parent: STClanSword
