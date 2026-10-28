@@ -12,9 +12,6 @@
     sprite: _Stories/Objects/Devices/falcon_drone.rsi
   - type: MovementIgnoreGravity
   - type: MovementSpeedModifier
-    basesprintspeed: 8
-    basewalkspeed: 3
-    baseweightlessmodifier: 0
   - type: Clothing
     slots:
     - ears
