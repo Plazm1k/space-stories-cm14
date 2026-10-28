@@ -72,7 +72,7 @@
     - suitStorage
     - Back
   - type: Item
-    size: Large
+    size: Huge
   - type: Gun
     selectedMode: SemiAuto
     availableModes:
@@ -131,7 +131,7 @@
     - suitStorage
     - Back
   - type: Item
-    size: Large
+    size: Huge
   - type: Gun
     selectedMode: SemiAuto
     availableModes:
@@ -155,6 +155,56 @@
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 1.5
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: false
+  - type: GunUserWhitelist
+    whitelist:
+      components:
+      - Hunter
+
+- type: entity
+  parent: STHunterBaseItem
+  id: STWeaponSpikeLauncher
+  name: spike launcher
+  description: A compact Yautja device in the shape of a crescent. It can rapidly fire damaging spikes and automatically recharges.
+  components:
+  - type: Sprite
+    sprite: _Stories/Objects/Weapons/Guns/Hunter/spike_launcher.rsi
+    layers:
+    - state: spike-launcher
+      map: [ "enum.GunVisualLayers.Base" ]
+  - type: Clothing
+    sprite: _Stories/Objects/Weapons/Guns/Hunter/spike_launcher.rsi
+    slots:
+    - suitstorage
+    - belt
+  - type: Item
+    size: Small
+  - type: Gun
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot: /Audio/_Stories/Weapons/spike_thunk.ogg
+  - type: RMCSelectiveFire
+    baseFireModes:
+    - SemiAuto
+    recoilUnwielded: 0.1
+    recoilWielded: 0
+    scatterWielded: 0
+    scatterUnwielded: 5
+    baseFireRate: 1.5
+  - type: Wieldable
+  - type: ProjectileBatteryAmmoProvider
+    proto: STSpikeProjectile
+    fireCost: 1
+  - type: Battery
+    maxCharge: 12
+    startingCharge: 12
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 0.4
   - type: MagazineVisuals
     magState: mag
     steps: 5
